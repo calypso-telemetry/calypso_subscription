@@ -1,0 +1,13 @@
+{application, calypso_subscription, [
+  {description, "Calypso subscription's system"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    calypso_core,
+    calypso_registrar
+  ]},
+  {mod, {calypso_subscription_app, []}},
+  {env, []}
+]}.
